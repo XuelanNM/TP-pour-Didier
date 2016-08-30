@@ -40,7 +40,7 @@ int main()
     int deuxJoueur = 0;
     printf("\n\nChoisissez votre mode : \n1. 1 joueur\n2. 2 joueurs "); //On demande le nombres de joueurs
     scanf("%d", &deuxJoueur);
-    switch (deuxJoueur) //On fait un switch pour demander au(x) joueur(x) quel mode de jeu choisissent-ils
+    switch (deuxJoueur) //On fait un switch pour demander au(x) joueur(s) quel mode de jeu choisissent-ils
     {
     case 1:
         while (nombreEntre != nombreMystere)
